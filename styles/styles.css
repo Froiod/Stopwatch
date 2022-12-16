@@ -1,0 +1,75 @@
+:root {
+  --font: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  background: url(../image/pexels-pixabay-531880.jpg) no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 60%;
+  height: 250px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 0 3px;
+}
+
+#timer {
+  width: 100%;
+  font-size: 5rem;
+  text-align: center;
+  margin-top: 1.7rem;
+}
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  background-color: white;
+  padding-top: 2rem;
+  border: none;
+  margin: 0 1rem;
+}
+
+button i {
+  font-size: 2rem;
+  padding: 1rem;
+  color: white;
+  width: 4rem;
+}
+
+#play {
+  background-color: green;
+}
+#play:hover {
+  background-color: rgb(7, 156, 7);
+}
+
+#pause {
+  background-color: orange;
+}
+#pause:hover {
+  background-color: rgb(247, 174, 39);
+}
+
+#reset {
+  background-color: red;
+}
+#reset:hover {
+  background-color: rgb(235, 30, 15);
+}
+#reset:active {
+  background-color: rgb(224, 72, 61);
+}/*# sourceMappingURL=styles.css.map */
